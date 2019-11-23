@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137809202-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137809202-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png"  href="./assets/favicon/icon-black.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>React App</title>
+
+    <!-- TypekitFonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/hej3lez.css">
+
+
+    <script src="https://use.typekit.net/xvs0nhr.js"></script>
+    <script>try{Typekit.load({ async: false });}catch(e){}</script>
+    
+    <link rel="stylesheet" href="public/styles/style.css">
+
+    <!-- lazyload -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+
+    <!-- flickity carousel -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!-- animate in -->
+    <link rel="stylesheet" href="./public/animate.css">
+    <script src="./public/scripts/wow.min.js"></script>
+  
+  </head>
+  <body class="lightTheme">
+
+      <div class="largeWrapper homePage_container">
+          <div class="hero_container  wow fadeIn">
+  
+              <nav class="header">
+                      <a href=""><img id="logo" src="assets/icon-white.svg"></a>
+                      <!-- <h6 id="boldSmallTitlinglight">Maggie </br>Chiu Yee </br>Chan</h6> -->
+                      <a id="boldSmallTitlinglight" href="http://len"><h6>Resume</h6></a>
+              </nav>
+
+<!-- SUBHEADER -->
+<div class="aboutMeSubHead_container  full-width wow fadeIn">
+    <h3 class="subHead">About me</h3>
+</div>
+<!-- SUBHEADER -->
+
+<div class="full-width aboutMe">
+                
+<!-- BLOCKQUOTE -->
+<h5 class="hero_text wow fadeIn">
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, in voluptatem sit nam.
+</h5>
+<!-- BLOCKQUOTE -->
+
+
+<!-- 2 COLUMNSTEXT -->
+<div class="twoColumns_container wow fadeIn">
+        <div class="twoColumns">
+          <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, optio sequi minus et incidunt veritatis exercitationem libero id corrupti cumque provident magni soluta quidem accusantium quod, doloremque vero quia quasi!</h6>
+        </div>
+        <div class="twoColumns">
+          <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ea culpa, beatae rerum, veritatis aperiam voluptates earum aut, illo fugiat ipsam! Consequuntur quasi culpa aspernatur tempore voluptates quo accusamus iure!</h6>
+        </div>
+</div>
+<!-- 2 COLUMNSTEXT -->
+</div>
+
+          </div><!-- hero -->
+
+        
+
+          <div class="projects_container animsition">
+
+    
+        <!-- SUBHEADER -->
+        <div class="homepageSubHead_container  full-width wow fadeIn">
+            <h3 class="subHead">Projects</h3>
+        </div>
+    <!-- SUBHEADER -->
+
+              <!-- CARD -->
+              <a href="delphi.html" class=" wow fadeIn full-width  wow fadeIn ">
+                  <!-- <div class="card_container" id="project1"> -->
+  
+                  <div class="lazy card_container" 
+                  data-bg="url(../../assets/homepage/1_bg.jpg), linear-gradient(#04587d, #151515)">
+  
+                  <div class="cardText_container">
+                      <div class="cardText-metadata_container">
+                          <div class="cardText-metadata_date">
+                              <h6 id="boldSmallTitling">Project name</h6>
+                              <h6>date</h6>
+                          </div>
+                          <div class="cardText-metadata_tags">
+                                  <h6>buzzword 1</h6>
+                                  <h6>buzzword 2</h6>
+                          </div>
+                      </div><!-- cardText-metadata_container -->
+  
+                      <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h5>
+                  </div><!-- cardText_container -->
+  
+                  <div class="card-Image_container">
+                          <img alt="img alt text description" class="lazy card-Image"
+                          src="assets/homepage/lazy/1.jpg"
+                          data-src="assets/homepage/1.png"
+                          data-srcset="
+                          assets/homepage/4001x/1.png 400w, 
+                          assets/homepage/4002x/1.png 800w,
+                          assets/homepage/10001x/1.png 1000w, 
+                          assets/homepage/20001x/1.png 2000w,
+                          assets/homepage/20002x/1.png 4000w"  
+                          >
+  
+                          <!-- src="assets/homepage/lazy/1.jpg"  -->
+  
+                      <!-- <img class="card-Image" src="
+                      assets/homepage/1.png" 
+                      alt="orange tree"/>   -->
+                  </div>
+              </div>
+              </a><!-- card_container -->
+  
+  
+  
+              <!-- CARD -->
+              <a href="./ava.html" class=" wow fadeIn animsition-link">
+                  
+                  <div class="lazy card_container" 
+                  data-bg="url(../../assets/homepage/3_bg.jpg),linear-gradient(#3f2d5d, #151515)">
+                  <!-- <div class="card_container" id="project3"> -->
+                          <!-- <img class="comingSoon" src="assets/homepage/comingsoon.svg"> -->
+  
+                      <div class="cardText_container">
+                          <div class="cardText-metadata_container">
+                              <div class="cardText-metadata_date">
+                                  <h6 id="boldSmallTitling">another project</h6>
+                                  <h6>date</h6>
+                              </div>
+                              <div class="cardText-metadata_tags">
+                                      <h6>buzzword</h6>
+                                      <h6>buzzword</h6>
+                              </div>
+                          </div><!-- cardText-metadata_container -->
+  
+                          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h5>
+                      </div><!-- cardText_container -->
+  
+                      <div class="card-Image_container">
+  
+                          <img alt="img alt text desc" class="lazy card-Image"
+                          src="assets/homepage/lazy/3.png"
+                          data-src="assets/homepage/3.png"
+                          data-srcset="
+                          assets/homepage/4001x/3.png 400w, 
+                          assets/homepage/4002x/3.png 800w,
+                          assets/homepage/10001x/3.png 1000w, 
+                          assets/homepage/20001x/3.png 2000w,
+                          assets/homepage/20002x/3.png 4000w"  
+                          >
+  <!--                             
+                          <img class="card-Image" src="
+                          assets/homepage/3.png" 
+                          alt="orange tree"/>    -->
+                      </div>        
+                  </div>
+              </a><!-- card_container -->
+  
+  
+              <!-- CARD -->
+              <a href="./Analysis.html" class=" wow fadeIn ">
+  
+                  <div class="lazy card_container" 
+                  data-bg="url(../../assets/homepage/6_bg.jpg), linear-gradient(#452701, #151515)">
+  
+                          <div class="cardText_container">
+                              <div class="cardText-metadata_container">
+                                  <div class="cardText-metadata_date">
+                                      <h6 id="boldSmallTitling">project name</h6>
+                                      <h6>date</h6>
+                                  </div>
+                                  <div class="cardText-metadata_tags">
+                                          <h6>buzzword</h6>
+                                          <h6>buzzword</h6>
+                                  </div>
+                              </div><!-- cardText-metadata_container -->
+      
+                              <h5>lorem ipsum fecit alur.</h5>
+                          </div><!-- cardText_container -->         
+                      </div>
+                  </a><!-- card_container -->
+
+                    <!-- CARD -->
+              <a href="./Analysis.html" class=" wow fadeIn ">
+  
+                <div class="lazy card_container" 
+                data-bg="url(../../assets/homepage/6_bg.jpg), linear-gradient(#452701, #151515)">
+
+                        <div class="cardText_container">
+                            <div class="cardText-metadata_container">
+                                <div class="cardText-metadata_date">
+                                    <h6 id="boldSmallTitling">project name</h6>
+                                    <h6>date</h6>
+                                </div>
+                                <div class="cardText-metadata_tags">
+                                        <h6>buzzword</h6>
+                                        <h6>buzzword</h6>
+                                </div>
+                            </div><!-- cardText-metadata_container -->
+    
+                            <h5>lorem ipsum fecit alur.</h5>
+                        </div><!-- cardText_container -->         
+                    </div>
+                </a><!-- card_container -->
+  
+      
+              <!-- CARD -->
+              <a href="./biomosaic.html" class=" wow fadeIn animsition-link">
+  
+                  <div class="lazy card_container" 
+                  data-bg="url(../../assets/homepage/4_bg.jpg), linear-gradient(#191c25, #151515)">
+                          <!-- <img class="comingSoon" src="assets/homepage/comingsoon.svg"> -->
+  
+                      <div class="cardText_container">
+                          <div class="cardText-metadata_container">
+                              <div class="cardText-metadata_date">
+                                  <h6 id="boldSmallTitling">LOREM IPSUM</h6>
+                                  <h6>2018</h6>
+                              </div>
+                              <div class="cardText-metadata_tags">
+                                      <h6>lorem ipsum</h6>
+                                      <h6>blah blah</h6>
+                              </div>
+                          </div><!-- cardText-metadata_container -->
+  
+                          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                      </div><!-- cardText_container -->
+  
+                      <div class="card-Image_container">
+  
+  
+                          <img alt="image alt text" class="lazy card-Image"
+                          src="assets/homepage/lazy/5.jpg"
+                          data-src="assets/homepage/5.jpg"
+                          data-srcset="
+                          assets/homepage/4001x/5.jpg 400w, 
+                          assets/homepage/4002x/5.jpg 800w,
+                          assets/homepage/10001x/5.jpg 1000w, 
+                          assets/homepage/20001x/5.jpg 2000w,
+                          assets/homepage/20002x/5.jpg 4000w"  
+                          >
+                          <!-- <img class="card-Image" src="
+                          assets/homepage/5.jpg" 
+                          alt="orange tree"/>    -->
+                      </div>        
+                  </div>
+              </a><!-- card_container -->
+       
+   <!-- SUBHEADER -->
+   <div class="homepageSubHead_container  full-width wow fadeIn">
+      <h3 class="subHead">Title</h3>
+</div>
+<!-- SUBHEADER -->
+
+<div class="full-width aboutMe">
+                  
+  <!-- BLOCKQUOTE -->
+  <h1 class="hero_text wow fadeIn">
+          I design, research, and prototype desirable, feasible, and viable interactive products. Currently, I am studying at Carnegie Mellon University, working on my strategic design and human-centered design skillsets. 
+  </h1>
+  <!-- BLOCKQUOTE -->
+  
+
+  
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+          </div><!-- projects_container -->
+  
+  
+          <footer class="homepageFooter wow fadeIn">
+      
+  
+              <div class="footerContainer">
+                  <li>
+                      <a href="mailto:mail@maggiechan.io?Subject=Hello%20Maggie" id="boldSmallTitlinglight">
+                          <h6>email@address</h6>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.linkedin.com/in/mcychan/" target="blank" id="boldSmallTitlinglight">
+                          <h6>linkedin</h6>
+                      </a>
+                  </li>
+              </div>
+              <div class="footerContainer">
+                  <li>
+                      <a href="https://medium.com/@maggiechiuyeechan" target="blank" id="boldSmallTitlinglight">
+                          <h6>medium</h6>
+                      </a>
+                  </li>
+                  <li>
+                          <a href="https://twitter.com/maggie_cy_chan" target="blank" id="boldSmallTitlinglight">
+                              <h6>twitter</h6>
+                          </a>
+                      </li>
+              </div>
+              <div class="footerContainer">
+                  <li>
+                      <a href="https://github.com/maggiechiuyeechan" target="blank" id="boldSmallTitlinglight">
+                          <h6>github</h6>
+                      </a>
+                  </li>
+              </div>
+      
+          </footer>
+      </div><!-- largeWrapper -->
+              
+  
+    <div id="root"></div>
+
+ 
+  </body>
+</html>
