@@ -6,6 +6,36 @@
   height: 20vmin;
 }
 
+.lazy.card_container.veritas {
+    background-image: url(assets/pink_veritas.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    box-shadow: 0 0 black;
+    background-color: white;
+}
+
+.lazy.card_container.atlantis {
+    background-image: url(assets/laptop_table_dark.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    box-shadow: 0 0 black;
+    background-color: white;
+}
+
+.lazy.card_container.relif {
+    background-image: url(assets/relif_bg.jpeg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    box-shadow: 0 0 black;
+    background-color: white;
+}
+
+.lazy.card_container.favplace {
+    background-image: url(assets/favorite_place.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    box-shadow: 0 0 black;
+    background-color: white;
+}
+
+.lazy.card_container.muddypaws {
+    background-image: url(assets/muddypaws_dark.jpeg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    box-shadow: 0 0 black;
+    background-color: white;
+}
+
 .main-container {
     display: flex;
     flex-wrap: nowrap;
@@ -574,14 +604,14 @@ footer {
   transform: translateY(50px) translateX(75px) scale(1);
   transition: transform 0.75s ease-in-out; }
 
-  .card-Image-1 {
+.card-Image-1 {
     border-radius: 4px 4px 0px 0px;
     max-width: 100%;
     margin: auto;
     display: block;
     transform: translateY(50px) scale(1);
     transition: transform 0.75s ease-in-out; 
-  }
+}
 
 .card_container:hover .card-Image {
   transform: translateY(0px) translateX(75px) scale(1.01);}

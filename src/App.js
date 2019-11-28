@@ -6,8 +6,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="">      
+      <header className="">
       </header>
+      <div>
+         <img src=""/>
+     </div>
     </div>
   );
 }
