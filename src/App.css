@@ -6,6 +6,52 @@
   height: 20vmin;
 }
 
+.main-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    height: 100%;
+    padding-left: 20px;
+  }
+
+  .second-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    height: 100%;
+  }
+  
+  .main-text-container {
+    min-width: 500px;
+    overflow: auto;
+    padding: 10px;
+  }
+  
+  .second-text-container {
+    min-width: 1250px;
+    height: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+    align-self: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .preview-img {
+    scroll-snap-type: x mandatory;
+    width: 400px;
+    float: right;
+    padding: 20px;
+    overflow: auto;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: scale(1);
+    transition: transform 0.75s ease-in-out;
+  }
+
 .App-header {
   background-color:black;
   min-height: 100vh;
@@ -528,8 +574,20 @@ footer {
   transform: translateY(50px) translateX(75px) scale(1);
   transition: transform 0.75s ease-in-out; }
 
+  .card-Image-1 {
+    border-radius: 4px 4px 0px 0px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    transform: translateY(50px) scale(1);
+    transition: transform 0.75s ease-in-out; 
+  }
+
 .card_container:hover .card-Image {
-  transform: translateY(0px) translateX(75px) scale(1.01); }
+  transform: translateY(0px) translateX(75px) scale(1.01);}
+
+  .card_container:hover .card-Image-1 {
+    transform: translateY(0px) scale(1.01); }
 
 @media (min-width: 900px) {
   .full-width > .card-Image_container {
@@ -577,10 +635,11 @@ footer {
   position: relative; }
 
 .creativeTech_image {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   z-index: -1;
+  width: 400px;
   transform: scale(1);
   transition: transform 0.75s ease-in-out; }
 
