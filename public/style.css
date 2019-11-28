@@ -974,7 +974,13 @@ footer {
 .main-carousel {
   margin-bottom: 3rem;
   margin-top: 1rem;
-  border-radius: 4rem; }
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  height: 100%;
+  min-width: 500px;
+
+}
 
 .carousel-cell {
   width: 44%;
