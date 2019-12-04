@@ -6,6 +6,9 @@
   height: 20vmin;
 }
 
+.title {
+    font-size: 100px;
+}
 
 .lazy.card_container.veritas {
     background-image: url(assets/pink_veritas.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
@@ -461,6 +464,8 @@ p {
     background-color: #151515; }
   .darkTheme .projectHeader {
     background: linear-gradient(#151515, rgba(0, 0, 0, 0)); }
+    .darkTheme .projectHeader {
+    background: linear-gradient(#151515, rgba(0, 0, 0, 0)); }
   .darkTheme #boldSmallTitling {
     color: #fff; }
   .darkTheme .projectFooter > a > h5 {
@@ -469,6 +474,8 @@ p {
 .lightTheme {
   background-color: #fff;
   color: #333333; }
+  .lightTheme .projectFooter > a > h5 {
+    color: black; }
   @media (min-width: 2000px) {
     .lightTheme {
       width: 90%;
@@ -496,7 +503,7 @@ p {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 1rem;
+    padding-top: 9rem;
     margin-top: 2rem;
     padding-bottom: 2rem; }
 
@@ -523,7 +530,7 @@ footer {
       width: 25%; } }
 
 #logo {
-  height: 1.25rem;
+  height: 3rem;
   transition: transform 0.5s ease-in; }
 
 #logo:hover {
@@ -652,6 +659,8 @@ footer {
   .projects_container {
     width: 70%;
     position: absolute;
+    margin-right: 1rem;
+    margin-left: 4rem;
     right: 0; } }
 
 .comingSoon {
