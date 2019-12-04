@@ -493,11 +493,11 @@ p {
       right: 0; } }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 1rem;
-  margin-top: 2rem;
-  padding-bottom: 2rem; }
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem; }
 
 .hero_text {
   margin-top: 1rem;

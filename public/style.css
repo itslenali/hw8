@@ -6,6 +6,82 @@
   height: 20vmin;
 }
 
+.lazy.card_container.veritas {
+    background-image: url(assets/pink_veritas.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    box-shadow: 0 0 black;
+    background-color: white;
+}
+
+.lazy.card_container.atlantis {
+    background-image: url(assets/laptop_table_dark.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    box-shadow: 0 0 black;
+    background-color: white;
+}
+
+.lazy.card_container.relif {
+    background-image: url(assets/relif_bg.jpeg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    box-shadow: 0 0 black;
+    background-color: white;
+}
+
+.lazy.card_container.favplace {
+    background-image: url(assets/favorite_place.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    box-shadow: 0 0 black;
+    background-color: white;
+}
+
+.lazy.card_container.muddypaws {
+    background-image: url(assets/muddypaws_dark.jpeg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    box-shadow: 0 0 black;
+    background-color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    height: 100%;
+    padding-left: 20px;
+  }
+
+  .second-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    height: 100%;
+  }
+  
+  .main-text-container {
+    min-width: 80%;
+    overflow: auto;
+    padding: 10px;
+  }
+  
+  .second-text-container {
+    min-width: 1250px;
+    height: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+    align-self: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .preview-img {
+    scroll-snap-type: x mandatory;
+    width: auto;
+    float: right;
+    padding: 20px;
+    overflow: auto;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: scale(1);
+    transition: transform 0.75s ease-in-out;
+  }
+
 .App-header {
   background-color:black;
   min-height: 100vh;
@@ -346,12 +422,13 @@ p {
 
 #blockQuote {
   font-family: mrs-eaves-xl-serif-narrow, serif;
+  font-style: italic;
   font-size: 3rem;
   margin-top: 5rem;
   margin-bottom: 2rem; }
   @media (min-width: 900px) {
     #blockQuote {
-      font-size: 3rem;
+      font-size: 4rem;
       width: 75%; } }
 
 #boldSmallTitling {
@@ -419,6 +496,9 @@ p {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
+  padding-right: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
   margin-top: 2rem;
   padding-bottom: 2rem; }
 
@@ -527,8 +607,20 @@ footer {
   transform: translateY(50px) translateX(75px) scale(1);
   transition: transform 0.75s ease-in-out; }
 
+.card-Image-1 {
+    border-radius: 4px 4px 0px 0px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    transform: translateY(50px) scale(1);
+    transition: transform 0.75s ease-in-out; 
+}
+
 .card_container:hover .card-Image {
-  transform: translateY(0px) translateX(75px) scale(1.01); }
+  transform: translateY(0px) translateX(75px) scale(1.01);}
+
+  .card_container:hover .card-Image-1 {
+    transform: translateY(0px) scale(1.01); }
 
 @media (min-width: 900px) {
   .full-width > .card-Image_container {
@@ -576,16 +668,17 @@ footer {
   position: relative; }
 
 .creativeTech_image {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   z-index: -1;
+  width: 100%;
   transform: scale(1);
   transition: transform 0.75s ease-in-out; }
 
 .creativeTechText_container {
   padding: 1.75rem;
-  height: 300px; }
+  height: 100%; }
 
 .main-carousel.homepage {
   margin-bottom: 0; }
@@ -595,32 +688,6 @@ footer {
 .aboutMe {
   margin-bottom: 6rem; }
 
-#oneHero-image {
-  background-image: url("https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"); }
-
-#analyticsHero-image {
-  background-image: url(""); }
-
-#explorerHero-image {
-  background-image: url(""); }
-
-#avaHero-image {
-  background-image: url(""); }
-
-#seconds-image {
-  background-image: url(""); }
-
-#chthuluscene-image {
-  background-image: url(""); }
-
-#itat-image {
-  background-image: url(""); }
-
-#sharp-image {
-  background-image: url(""); }
-
-#coh-image {
-  background-image: url(""); }
 
 .projectHero {
   width: 100%;
@@ -827,11 +894,6 @@ footer {
   width: 100%;
   margin-top: 0.75rem; }
 
-  .project-conclusionImage {
-    width: 10%;
-    align-self: flex-end;
-    margin-top: 0.75rem; }
-
 .captionedImgContainer {
   position: relative; }
 
@@ -979,13 +1041,7 @@ footer {
 .main-carousel {
   margin-bottom: 3rem;
   margin-top: 1rem;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: auto;
-  height: 100%;
-  min-width: 500px;
-
-}
+  border-radius: 4rem; }
 
 .carousel-cell {
   width: 44%;
