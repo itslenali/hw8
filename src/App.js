@@ -9,8 +9,6 @@ import Typist from 'react-typist';
 function App() {
   return (
     <div className="App">
-
-      
     </div>
   );
 
