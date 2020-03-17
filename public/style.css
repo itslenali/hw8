@@ -7,7 +7,7 @@
 }
 
 .lazy.card_container.veritas {
-    background-image: url(assets/pink_veritas.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
+    background-image: url(src/assets/pink_veritas.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
     box-shadow: 0 0 black;
     background-color: white;
 }
