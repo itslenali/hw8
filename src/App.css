@@ -698,13 +698,13 @@ footer {
   top: 0;
   left: 0;
   z-index: -1;
-  width: 400px;
+  width: 100%;
   transform: scale(1);
   transition: transform 0.75s ease-in-out; }
 
 .creativeTechText_container {
   padding: 1.75rem;
-  height: 300px; }
+  height: 100%; }
 
 .main-carousel.homepage {
   margin-bottom: 0; }
