@@ -415,7 +415,7 @@ h6 {
 
 p {
   font-family: "neue-haas-unica", "system-ui", sans-serif;
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 400;
   margin-bottom: 1rem;
   line-height: 1.39; }
@@ -525,7 +525,7 @@ footer {
       width: 25%; } }
 
 #logo {
-  height: 3rem;
+  height: 2rem;
   transition: transform 0.5s ease-in; }
 
 #logo:hover {

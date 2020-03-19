@@ -422,12 +422,12 @@ h5 {
   line-height: 120%;
   font-weight: 300; }
 
-h4 {
-  font-family: "neue-haas-unica", "system-ui", sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  margin-top: 1.5rem;
-  margin-bottom: 0.7rem; }
+  h4 {
+    font-family: "neue-haas-unica", "system-ui", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin: 0;
+    opacity: 1; }
 
 h6 {
   font-family: "neue-haas-unica", "system-ui", sans-serif;
@@ -437,11 +437,11 @@ h6 {
   opacity: 0.4; }
 
 p {
-  font-family: "neue-haas-unica", "system-ui", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
-  line-height: 1.39; }
+    font-family: "neue-haas-unica", "system-ui", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin: 0;
+    opacity: 0.4; }
 
 #blockQuote {
   font-family: mrs-eaves-xl-serif-narrow, serif;
