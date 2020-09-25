@@ -9,7 +9,7 @@
 .lazy.card_container.veritas {
     background-image: url(assets/pink_veritas.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
     box-shadow: 0 0 black;
-    background-color: white;
+    background-color: black;
 }
 
 .lazy.card_container.aaci {
@@ -21,25 +21,25 @@
 .lazy.card_container.atlantis {
     background-image: url(assets/laptop_table_dark.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
     box-shadow: 0 0 black;
-    background-color: white;
+    background-color: black;
 }
 
 .lazy.card_container.relif {
     background-image: url(assets/relif_bg.jpeg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
     box-shadow: 0 0 black;
-    background-color: white;
+    background-color: black;
 }
 
 .lazy.card_container.favplace {
     background-image: url(assets/favorite_place.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
     box-shadow: 0 0 black;
-    background-color: white;
+    background-color: black;
 }
 
 .lazy.card_container.muddypaws {
     background-image: url(assets/muddypaws_dark.jpeg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
     box-shadow: 0 0 black;
-    background-color: white;
+    background-color: black;
 }
 
 .main-container {
@@ -950,7 +950,6 @@ footer {
 
 .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
