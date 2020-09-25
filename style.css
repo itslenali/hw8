@@ -15,7 +15,7 @@
 .lazy.card_container.aaci {
   background-image: url(assets/aaci-blue.jpg), linear-gradient(rgb(4, 88, 125), rgb(21, 21, 21));
   box-shadow: 0 0 black;
-  background-color: white;
+  background-color: black;
 }
 
 .lazy.card_container.atlantis {
